@@ -1,0 +1,26 @@
+You are reconstructing masked movie reviews for a controlled data-augmentation experiment.
+
+For each item, replace the single <mask> span and return the complete reconstructed review.
+
+Rules:
+- Preserve the review's original evaluative meaning and sentiment.
+- Keep every visible word and punctuation mark unchanged.
+- Replace only the text represented by <mask>.
+- Do not add new people, events, claims, or opinions.
+- Do not explain your answers.
+- Do not include <mask> in any recovered review.
+- Return valid JSON only, with no Markdown code fence.
+- Return exactly one object per item in the same order.
+
+Required JSON format:
+[{"id": 1, "recovered": "complete review"}, {"id": 2, "recovered": "complete review"}]
+
+Items:
+1. peralta's mythmaking could have used <mask> , adult hindsight .
+2. you come <mask> , that the movie spent a lot less time trying to make a credible case for reports from the afterlife and a lot more time on the romantic urgency that's at the center of the story .
+3. notorious c . h . o . <mask> of vulgar highlights .
+4. films are made of little moments . changing lanes tries for more . it doesn't reach them , but <mask> received .
+5. lathan and diggs have considerable personal charm , and their screen rapport makes <mask> seem new .
+6. essentially a collection of bits -- <mask> all naughty .
+7. couldn't someone take rob schneider <mask> him switch bodies with a funny person ?
+8. generally provides its target audience of youngsters enough stimulating eye and ear <mask> its moral medicine go down .

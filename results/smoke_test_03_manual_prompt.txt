@@ -1,0 +1,26 @@
+You are generating direct paraphrases for a controlled text-augmentation experiment.
+
+Rewrite each movie review using meaningfully different wording while preserving its original evaluative meaning and sentiment.
+
+Rules:
+- Preserve the original sentiment and central evaluation.
+- Do not reproduce the review verbatim.
+- Use different wording or sentence structure.
+- Do not add or remove people, events, claims, opinions, or factual details.
+- Do not strengthen, weaken, or reverse the evaluation.
+- Do not explain your answers.
+- Return valid JSON only, with no Markdown code fence.
+- Return exactly one object per item in the same order.
+
+Required JSON format:
+[{"id": 1, "paraphrase": "rewritten review"}, {"id": 2, "paraphrase": "rewritten review"}]
+
+Items:
+1. peralta's mythmaking could have used some informed , adult hindsight .
+2. you come away wishing , though , that the movie spent a lot less time trying to make a credible case for reports from the afterlife and a lot more time on the romantic urgency that's at the center of the story .
+3. notorious c . h . o . has oodles of vulgar highlights .
+4. films are made of little moments . changing lanes tries for more . it doesn't reach them , but the effort is gratefully received .
+5. lathan and diggs have considerable personal charm , and their screen rapport makes the old story seem new .
+6. essentially a collection of bits -- and they're all naughty .
+7. couldn't someone take rob schneider and have him switch bodies with a funny person ?
+8. generally provides its target audience of youngsters enough stimulating eye and ear candy to make its moral medicine go down .

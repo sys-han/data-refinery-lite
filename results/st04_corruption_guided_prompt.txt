@@ -1,0 +1,51 @@
+You are generating nonredundant training examples for a controlled text-augmentation experiment.
+
+For each masked movie review, reconstruct the missing meaning and rewrite the complete review using wording that is meaningfully different from the visible source text.
+
+Rules:
+- Preserve the original evaluative meaning and sentiment.
+- Do not reproduce the visible review verbatim.
+- Use different wording or sentence structure.
+- Do not add or remove people, events, claims, opinions, or factual details.
+- Do not strengthen, weaken, or reverse the evaluation.
+- Do not mention the task or explain your answers.
+- Do not include <mask> in any output.
+- Return valid JSON only, with no Markdown code fence.
+- Return exactly one object per item in the same order.
+
+Required JSON format:
+[{"id": 1, "rewrite": "complete rewritten review"}, {"id": 2, "rewrite": "complete rewritten review"}]
+
+Items:
+1. the master of disguise may have made a great saturday night live sketch , but a <mask> is not .
+2. ms . <mask> mr . serrault bring fresh , unforced naturalism to their characters .
+3. eight legged freaks ? <mask> big hairy deal .
+4. the bard as black comedy -- <mask> have loved it .
+5. generally provides its target audience of youngsters enough stimulating eye and ear candy <mask> moral medicine go down .
+6. the cold turkey would've been a <mask> title .
+7. couldn't someone take rob schneider <mask> him switch bodies with a funny person ?
+8. the underworld urban angst is derivative of martin scorsese's taxi driver and <mask> this film speaks for itself .
+9. a sensitive , cultivated treatment <mask> work as well as a remarkably faithful one .
+10. like its title character , esther kahn is unusual <mask> also irritating .
+11. talky , artificial and opaque . . . an interesting technical exercise , <mask> picture .
+12. essentially a collection of bits -- <mask> all naughty .
+13. you come away wishing , though , that the movie spent a lot less time trying to make a credible case for reports from <mask> lot more time on the romantic urgency that's at the center of the story .
+14. smith is careful not to make fun of these curious owners of architectural oddities . instead , he shows them <mask> due .
+15. a sentimental hybrid that <mask> from the spice of specificity .
+16. russian ark <mask> new treasure of the hermitage .
+17. for all its impressive craftsmanship , and despite an overbearing <mask> , lily chou-chou never really builds up a head of emotional steam .
+18. peralta's mythmaking could have used some <mask> adult hindsight .
+19. not the best herzog <mask> but unmistakably herzog .
+20. films are made of little moments . changing lanes tries for more . <mask> , but the effort is gratefully received .
+21. no , it's not nearly as good <mask> of its influences .
+22. visually fascinating . . . an often intense character study about <mask> , loyalty and duty .
+23. one of [herzog's] least <mask> works .
+24. with youthful high spirits , tautou remains captivating throughout <mask> quests , and she is backed by a likable cast .
+25. a dazzling thing to behold <mask> as you're wearing the somewhat cumbersome 3d goggles the theater provides .
+26. ice age posits a heretofore unfathomable question : is it possible for computer-generated characters <mask> the motions ?
+27. " brown sugar " admirably aspires to be more than another " best man <mask> a theme throughout this funny film .
+28. notorious c . h . o . <mask> of vulgar highlights .
+29. the pivotal <mask> so ripe the film can't help but go soft and stinky .
+30. another wholly unnecessary addition <mask> , moldering pile of , well , extreme stunt pictures .
+31. lathan and diggs have considerable personal charm , and their screen <mask> old story seem new .
+32. you may be galled that you've wasted nearly two hours of your own precious life with this <mask> a movie .

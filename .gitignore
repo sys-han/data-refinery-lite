@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.env
+*.egg-info/
+dist/
+build/
+.cache/
+docs/website_copy.md
