@@ -161,8 +161,7 @@ results/st04_one_seed_downstream_metrics.csv
 │   ├── st04_direct_paraphrase_examples.csv
 │   └── st04_one_seed_downstream_metrics.csv
 └── docs/
-    ├── experiment_log.md
-    └── website_copy.md
+    └── experiment_log.md
 ```
 
 ---
